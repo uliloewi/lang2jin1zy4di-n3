@@ -334,6 +334,23 @@ namespace lang2jin1zy4diän3
             //    docs.Save();
             //}
         }
+
+        private void cvin_Click(object sender, EventArgs e)
+        {            
+                string[] guang = File.ReadAllLines(@"C:\Users\LiYu\Downloads\cüänzy.txt");
+                string[] die = File.ReadAllLines(@"C:\Users\LiYu\Downloads\dieghv-master\dieghv-master\dieziu.dict.yaml");
+                string duc = "";
+                foreach (string d in die.Where(x => x.Length > 1))
+                {
+                    string sz = d.Substring(0, 1);
+                    if (!guang.Any(x => x.StartsWith(sz)))
+                    {
+                        string du5in1 = GetInfo(sz, "https://zh.wiktionary.org/zh-hant/", ">漢語拼音</a>：", "</li>");
+                        duc = duc + sz + "	" + du5in1 + System.Environment.NewLine;
+                    }
+                }
+                System.IO.File.WriteAllText(@"C:\Users\LiYu\Downloads\sinzy.txt", duc);
+            }
     }
 }
 
