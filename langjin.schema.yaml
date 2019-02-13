@@ -50,7 +50,7 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba
+  alphabet: zyxwvüutsrqponmlkjihgfedcbäa
   delimiter: " '"
   algebra:
     # 去掉聲調
@@ -74,7 +74,7 @@ speller:
     - derive/ü/v/
 
 translator:
-  dictionary: dieziu
+  dictionary: langjin
   spelling_hints: 5
   preedit_format:
     # 便捷鍵還原

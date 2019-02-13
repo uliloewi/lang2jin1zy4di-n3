@@ -8,7 +8,7 @@
 #
 
 ---
-name: langjing
+name: langjin
 version: "2019.02.13"
 sort: by_weight
 use_preset_vocabulary: true
@@ -4692,6 +4692,7 @@ use_preset_vocabulary: true
 簎	cy5
 簎	zho5
 簎	zi5
+大	da4
 怛	da5
 𢛁	da5
 妲	da5
@@ -9146,8 +9147,8 @@ use_preset_vocabulary: true
 杹	hua4
 𩲏	hua4
 𩵏	hua4
-話	huä4 
-話	huä4 
+話	huä4
+話	hua4
 猾	hua5
 䱻	hua5
 磆	hua5
@@ -26486,3 +26487,6 @@ use_preset_vocabulary: true
 銲	hang4
 墘	qän2
 唔	u2
+#半邊音
+嶼	ü3
+鯨	jin1
